@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OPGSDK_Example' do
+  pod 'OPGSDK', :path => '../'
+
+  target 'OPGSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
