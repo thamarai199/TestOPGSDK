@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import OPGSDK
+//import OPGSDK
 
 class Tests: XCTestCase {
     

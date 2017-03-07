@@ -7,12 +7,37 @@
 //
 
 import UIKit
+import OPGFramework
 
 class ViewController: UIViewController {
+    
+    func authenticate()
+    {
+        let sdk = OPGSDK()
+        var authenticate:OPGAuthenticate
+        do {
+            authenticate = try sdk.authenticate("Chinthan", password: "dev") as OPGAuthenticate
+            
+            if (authenticate.isSuccess == 1)
+            {
+                //self.performSegue(withIdentifier: "SurveyHome", sender: self);
+            } else {
+                
+            }
+        } catch let err as NSError {
+            print("Error: \(err)")
+        }
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
+        self.authenticate()
+
+        
     }
 
     override func didReceiveMemoryWarning() {

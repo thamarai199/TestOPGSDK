@@ -1,0 +1,32 @@
+{
+  "name": "OPGSDK",
+  "version": "0.1.0",
+  "summary": "A short description of OPGSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/thamarai199@outlook.com/OPGSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "thamarai199@outlook.com": "chinthanm@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/thamarai199@outlook.com/OPGSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "ios": {
+    "vendored_frameworks": "OPGFramework.framework"
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2",
+    "OTHER_LDFLAGS": "-ObjC"
+  }
+}

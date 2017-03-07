@@ -1,0 +1,6 @@
+framework module OPGFramework {
+  umbrella header "OPGFramework.h"
+
+  export *
+  module * { export * }
+}

@@ -30,11 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'OPGSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'OPGSDK' => ['OPGSDK/Assets/*.png']
-  # }
+# s.source_files = 'OPGSDK/Classes/**/*'
+
+s.ios.vendored_frameworks = 'OPGFramework.framework'
+s.frameworks = 'UIKit', 'MapKit'
+s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-ObjC'}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

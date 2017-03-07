@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OPGFramework
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        OPGSDK.setAppVersion("iOSSDK-IOS-1.0.0-O")
+        OPGSDK.initialize(withUserName: "mysurveys2.0", withSDKKey:"com.onepointsurveys.mysurveys2")
+        
         return true
     }
 

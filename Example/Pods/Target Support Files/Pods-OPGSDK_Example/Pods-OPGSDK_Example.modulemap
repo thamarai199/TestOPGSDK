@@ -1,0 +1,6 @@
+framework module Pods_OPGSDK_Example {
+  umbrella header "Pods-OPGSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
