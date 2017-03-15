@@ -17,7 +17,7 @@ OPGSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "OPGSDK"
+pod 'OPGSDK', :git => 'https://github.com/thamarai199/TestOPGSDK.git'
 ```
 
 ## Author

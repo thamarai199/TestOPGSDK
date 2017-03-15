@@ -9,7 +9,7 @@
 import UIKit
 import OPGFramework
 
-class ViewController: UIViewController {
+class ViewController: OPGViewController {
     
     func authenticate()
     {
@@ -21,6 +21,7 @@ class ViewController: UIViewController {
             if (authenticate.isSuccess == 1)
             {
                 //self.performSegue(withIdentifier: "SurveyHome", sender: self);
+                self.loadSurvey("Sample")
             } else {
                 
             }
@@ -33,9 +34,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         // Do any additional setup after loading the view, typically from a nib.
         self.authenticate()
+        //self.loadSurvey("Sample")
 
         
     }

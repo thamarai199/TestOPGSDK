@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OPGSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of OPGSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,23 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-# s.source_files = 'OPGSDK/Classes/**/*'
+# s.source_files = 'module/module.modulemap'
 
-s.ios.vendored_frameworks = 'OPGFramework.framework'
+#s.ios.vendored_library = 'libOnePointSDK.a'
+ s.ios.vendored_frameworks = 'OPGFramework.framework'
+s.resource_bundles = {
+'BlinkingLabel' => ['OPGSDK/Assets/*.bundle']
+}
 s.frameworks = 'UIKit', 'MapKit'
-s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-ObjC'}
+# s.preserve_path = 'module/module.modulemap'
+# s.module_map = 'module/module.modulemap'
+# s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(inherited)' '"${PODS_ROOT}/module"' '"$(SRCROOT)/module"' "$(SRCROOT)/Pods/Headers/", 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+
+#s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/mypod/module' }
+#s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/mypod/module' }
+
+#s.library = 'xml2', 'c++', 'iconv', 'z'
+# s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

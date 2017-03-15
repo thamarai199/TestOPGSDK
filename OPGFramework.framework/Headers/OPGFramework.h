@@ -18,3 +18,6 @@ FOUNDATION_EXPORT const unsigned char OPGFrameworkVersionString[];
 
 #import <OPGFramework/OPGSDK.h>
 #import <OPGFramework/OPGViewController.h>
+#import <OPGFramework/OPGBaseController.h>
+#import <OPGFramework/OPGCommandQueue.h>
+#import <OPGFramework/OPGWebViewDelegate.h>
