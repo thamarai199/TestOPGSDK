@@ -11,7 +11,7 @@
 		2DBD954874B535038F50C928C465B464 /* Pods-OPGSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3162A35FEE30F0B59BC74BD890AC89DB /* Pods-OPGSDK_Tests-dummy.m */; };
 		7CFCF66BB0151563A9E6D6893F638A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7DC5594DDD40F8098646989C4311FBE2 /* Pods-OPGSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A76631498E45D6D9985848CE72B23B /* Pods-OPGSDK_Example-dummy.m */; };
-		A002B63D764D89B0AEF43A825533DD99 /* OPGResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDFA86D536FCAFB80A007F399DC2AFC5 /* OPGResourceBundle.bundle */; };
+		A002B63D764D89B0AEF43A825533DD99 /* OPGResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC294C873EB116F0FE57290988FA8D13 /* OPGResourceBundle.bundle */; };
 		DB1F29A02B05AF5BCD735089A775B23A /* Pods-OPGSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 099CD8689CB3C5701BDC1E8C9A7AA1C4 /* Pods-OPGSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB4CCBF58D3AD31ED03473B1FCD92DDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -28,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		099CD8689CB3C5701BDC1E8C9A7AA1C4 /* Pods-OPGSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OPGSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		13546FB88A6B9DBD0B76E7F20C8513B5 /* OPGFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OPGFramework.framework; sourceTree = "<group>"; };
 		1546C66549EBDB39FEEC8E9F2E101883 /* Pods-OPGSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		193BF98010AC0ED559AD2CA81A45C13F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19D50255E05A977E4A3FE7DB80D537C6 /* Pods_OPGSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OPGSDK_Example.framework; path = "Pods-OPGSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +39,7 @@
 		41D4195D1EB06797D60FA568AD49C5C8 /* Pods_OPGSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OPGSDK_Tests.framework; path = "Pods-OPGSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B86CA37E9FA25080C3E2DFF23341D0 /* Pods-OPGSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OPGSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		59363F39296F89BE53F1CA9436D945F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCA5DDA194C66199D41A5B93079DDA0 /* OPGFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OPGFramework.framework; sourceTree = "<group>"; };
 		63C7D4843A5D713BA3C4684F242B3244 /* Pods-OPGSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		644ED7A496165EAC6EAE0B32FF1BDDAE /* Pods-OPGSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OPGSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		6F80269F4300BA606EFD880609137A10 /* Pods-OPGSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,12 +49,13 @@
 		B3F1EA8D39213EED111B2EC8A59CE830 /* Pods-OPGSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		B797109AFB7B04B2EFCC6B5303282A17 /* Pods-OPGSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPGSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7A76631498E45D6D9985848CE72B23B /* Pods-OPGSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OPGSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		BC294C873EB116F0FE57290988FA8D13 /* OPGResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = OPGResourceBundle.bundle; sourceTree = "<group>"; };
 		C199EDB045B4ABAC912FBFCDD018EECF /* Pods-OPGSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C35D07DFDDDBB13AA93797EE6A3A530D /* Pods-OPGSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA5EBFC85222EBD6ECE2AB664D37CE9D /* BlinkingLabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BlinkingLabel.bundle; path = BlinkingLabel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDFA86D536FCAFB80A007F399DC2AFC5 /* OPGResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = OPGResourceBundle.bundle; sourceTree = "<group>"; };
-		FB24319C39CAB177B24FBEAB9871667E /* ResourceBundle-BlinkingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BlinkingLabel-Info.plist"; sourceTree = "<group>"; };
+		DCDCBA1483F0335DF8DEFFAA9AE0ED94 /* ResourceBundle-BlinkingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BlinkingLabel-Info.plist"; sourceTree = "<group>"; };
+		EBDDB0485247A828A26CB59E40B48620 /* OPGRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OPGRuntime.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		159BB9D925E05863AB64411FEAEBCC1C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BC294C873EB116F0FE57290988FA8D13 /* OPGResourceBundle.bundle */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		1DF879750D7952347971F336BA5D1D0B /* Pods-OPGSDK_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,23 +131,13 @@
 			path = "Target Support Files/Pods-OPGSDK_Tests";
 			sourceTree = "<group>";
 		};
-		4259C732E68EE005CADBF42E1E4FB66B /* OPGSDK */ = {
+		52620130E2DD303F1D2BEDC303704208 /* OPGSDK */ = {
 			isa = PBXGroup;
 			children = (
-				4F35A2A3996A462CF4CB448CA127E5A1 /* Frameworks */,
-				97FCFEAEC562237400E604076A86AE9A /* Resources */,
-				99AC6D82334EC0C0946B117B54E9C32A /* Support Files */,
+				159BB9D925E05863AB64411FEAEBCC1C /* Assets */,
 			);
 			name = OPGSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4F35A2A3996A462CF4CB448CA127E5A1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				13546FB88A6B9DBD0B76E7F20C8513B5 /* OPGFramework.framework */,
-			);
-			name = Frameworks;
+			path = OPGSDK;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -146,6 +146,15 @@
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		75FB65CA1D5A8FE9150B794007FA2AD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BCA5DDA194C66199D41A5B93079DDA0 /* OPGFramework.framework */,
+				EBDDB0485247A828A26CB59E40B48620 /* OPGRuntime.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -159,21 +168,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		97FCFEAEC562237400E604076A86AE9A /* Resources */ = {
+		96438843E96259B8D8434EDF02DB90E1 /* OPGSDK */ = {
 			isa = PBXGroup;
 			children = (
-				DD74FDD676CB63DF5ADB78BC5C182745 /* OPGSDK */,
+				75FB65CA1D5A8FE9150B794007FA2AD4 /* Frameworks */,
+				BBC6B6D71928FEE9DD1D78077008AEF4 /* Resources */,
+				EA943275129C5C7E17FBEC3D1D25E1C7 /* Support Files */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		99AC6D82334EC0C0946B117B54E9C32A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FB24319C39CAB177B24FBEAB9871667E /* ResourceBundle-BlinkingLabel-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OPGSDK";
+			name = OPGSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B3F1FC6940F979C355B2BAA7DEE2F19F /* Pods-OPGSDK_Example */ = {
@@ -194,6 +197,14 @@
 			path = "Target Support Files/Pods-OPGSDK_Example";
 			sourceTree = "<group>";
 		};
+		BBC6B6D71928FEE9DD1D78077008AEF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52620130E2DD303F1D2BEDC303704208 /* OPGSDK */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,30 +213,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD74FDD676CB63DF5ADB78BC5C182745 /* OPGSDK */ = {
-			isa = PBXGroup;
-			children = (
-				EC7E4C3CBEE48DB551824805AA25059F /* Assets */,
-			);
-			name = OPGSDK;
-			path = OPGSDK;
-			sourceTree = "<group>";
-		};
 		E310881DD0BC9BB2B9F2DFF1FCAD51C5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4259C732E68EE005CADBF42E1E4FB66B /* OPGSDK */,
+				96438843E96259B8D8434EDF02DB90E1 /* OPGSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		EC7E4C3CBEE48DB551824805AA25059F /* Assets */ = {
+		EA943275129C5C7E17FBEC3D1D25E1C7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DDFA86D536FCAFB80A007F399DC2AFC5 /* OPGResourceBundle.bundle */,
+				DCDCBA1483F0335DF8DEFFAA9AE0ED94 /* ResourceBundle-BlinkingLabel-Info.plist */,
 			);
-			name = Assets;
-			path = Assets;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OPGSDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

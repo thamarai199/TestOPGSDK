@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OPGSDK'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of OPGSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
 # s.source_files = 'module/module.modulemap'
 
 #s.ios.vendored_library = 'libOnePointSDK.a'
- s.ios.vendored_frameworks = 'OPGFramework.framework'
+ s.ios.vendored_frameworks = 'OPGFramework.framework', 'OPGRuntime.framework'
 s.resource_bundles = {
 'BlinkingLabel' => ['OPGSDK/Assets/*.bundle']
 }

@@ -1,0 +1,6 @@
+framework module OPGRuntime {
+  umbrella header "OPGRuntime.h"
+
+  export *
+  module * { export * }
+}
